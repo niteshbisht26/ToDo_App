@@ -1,15 +1,3 @@
-.example-spacer{
-    flex: 1 1 auto;
-}
-
-.toolbar-color{
-    background: #336E7B;
-}
-
-.mat-toolbar {
-    position: relative;
-}
-
 .title{
     font-size: x-large;
     font-weight:500;

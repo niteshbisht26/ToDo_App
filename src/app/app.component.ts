@@ -6,20 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public items = [];
+  public tasks = [];
   public newTask;
 
-  public addToList() {
+  public addTask() {
     if (this.newTask == '') {
     }
     else {
-      this.items.push(this.newTask);
+      this.tasks.push(this.newTask);
       this.newTask = '';
     }
   }
 
   public deleteTask(index) {
-    this.items.splice(index, 1);
+    this.tasks.splice(index, 1);
   }
 
 }
