@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public tasks = [];
-  public newTask;
+  public newTask = '';
 
   public addTask() {
     if (this.newTask == '') {
